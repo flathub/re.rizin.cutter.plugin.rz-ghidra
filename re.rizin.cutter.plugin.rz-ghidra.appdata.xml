@@ -2,6 +2,7 @@
 <component type="addon">
   <!--Created with jdAppdataEdit 5.1-->
   <id>re.rizin.cutter.plugin.rz-ghidra</id>
+  <extends>re.rizin.cutter</extends>
   <name>rz-ghidra</name>
   <summary>This is an integration of the Ghidra decompiler and Sleigh Disassembler for rizin.</summary>
   <developer_name></developer_name>
