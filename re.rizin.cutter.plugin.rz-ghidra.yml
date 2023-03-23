@@ -18,8 +18,8 @@ modules:
       - -DCUTTER_INSTALL_PLUGDIR=/app/extensions/rz-ghidra/plugins/native
     sources:
       - type: archive
-        url: https://github.com/rizinorg/rz-ghidra/releases/download/v0.4.0/rz-ghidra-src-v0.4.0.tar.gz
-        sha256: 6b8a6d1259699115e70f1f7d27de26c57fc19338d2d3e517460e35bb5f39eb55
+        url: https://github.com/rizinorg/rz-ghidra/releases/download/v0.5.0/rz-ghidra-src-v0.5.0.tar.gz
+        sha256: cb3da4b7d21324062ab94eff9e892dbb69de2be1133275c7ae9aff37b91404c7
       - type: file
         path: re.rizin.cutter.plugin.rz-ghidra.appdata.xml
     post-install:
