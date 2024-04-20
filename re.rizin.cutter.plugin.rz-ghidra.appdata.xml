@@ -1,14 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="addon">
-  <!--Created with jdAppdataEdit 5.1-->
+  <!--Created with jdAppStreamEdit 9.0-->
   <id>re.rizin.cutter.plugin.rz-ghidra</id>
   <extends>re.rizin.cutter</extends>
   <name>rz-ghidra</name>
-  <summary>This is an integration of the Ghidra decompiler and Sleigh Disassembler for rizin.</summary>
-  <developer_name></developer_name>
+  <summary>Ghidra decompiler and Sleigh Disassembler for rizin</summary>
+  <developer id="com.github.rizinorg">
+    <name>Rizin Organization</name>
+  </developer>
   <metadata_license>GFDL-1.3</metadata_license>
-  <project_license>LGPL-3.0</project_license>
-  <description/>
+  <project_license>LGPL-3.0-only</project_license>
+  <description>
+    <p>This is an integration of the Ghidra decompiler and Sleigh Disassembler for rizin.</p>
+  </description>
   <releases>
     <release version="0.7.0" date="2024-02-24" type="stable"/>
     <release version="0.6.0" date="2023-08-05" type="stable"/>
@@ -18,5 +22,7 @@
     <release version="0.2.0" date="2022-04-08" type="stable"/>
   </releases>
   <url type="homepage">https://github.com/rizinorg/rz-ghidra</url>
+  <url type="bugtracker">https://github.com/rizinorg/rz-ghidra/issues</url>
+  <url type="vcs-browser">https://github.com/rizinorg/rz-ghidra</url>
   <content_rating type="oars-1.1"/>
 </component>
