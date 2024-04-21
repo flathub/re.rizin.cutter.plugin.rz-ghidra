@@ -3,7 +3,7 @@ branch: stable
 runtime: re.rizin.cutter
 runtime-version: stable
 appstream-compose: false
-sdk: org.kde.Sdk//5.15-22.08
+sdk: org.kde.Sdk//5.15-23.08
 build-options:
   prefix: /app/extensions/rz-ghidra
 
@@ -18,8 +18,8 @@ modules:
       - -DCUTTER_INSTALL_PLUGDIR=/app/extensions/rz-ghidra/plugins/native
     sources:
       - type: archive
-        url: https://github.com/rizinorg/rz-ghidra/releases/download/v0.6.0/rz-ghidra-src-v0.6.0.tar.gz
-        sha256: 574eb52dda80c8ef1e24c166cfdc8a462ef01da7930556604d65d86c2a8051e4
+        url: https://github.com/rizinorg/rz-ghidra/releases/download/v0.7.0/rz-ghidra-src-v0.7.0.tar.gz
+        sha256: 62b9bc3e8f92efd7aa08a5fec710a19ef976c07f1dae9ba8f76539cc8b6fff6f
       - type: file
         path: re.rizin.cutter.plugin.rz-ghidra.appdata.xml
     post-install:
